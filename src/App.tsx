@@ -1,8 +1,12 @@
+import GlobalStyles from './styles/globals'
 
 function App() {
 
   return (
-    <div>Opa</div>
+    <div>
+      <div>opa</div>
+      <GlobalStyles />
+    </div>
   )
 }
 
