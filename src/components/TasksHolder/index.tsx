@@ -1,3 +1,4 @@
+import { PlaceHolder } from '../PlaceHolder'
 import { Container, Header } from './styles'
 
 export function TasksHolder() {
@@ -8,6 +9,8 @@ export function TasksHolder() {
           <div>Tarefas criadas 0</div>
           <div>Concluídas 0</div>
         </Header>
+
+        <PlaceHolder />
     </Container>
   )
 }
